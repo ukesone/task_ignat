@@ -1,0 +1,47 @@
+.body{
+    background-color: #02009b;
+    height: 10em;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border: 3px solid white;
+}
+
+.qvol{
+
+    font-size: xx-large;
+    margin: 0.7em;
+    border: 15px solid #ff232f;
+    background-color: #4419d0;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.unikal {
+    background-color: #ffee35;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    border: 15px solid #10ff42;
+
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 60%;
+        width: 200%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 62%;
+    }
+}
+
