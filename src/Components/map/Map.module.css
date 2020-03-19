@@ -27,6 +27,11 @@
     font-weight: bold;
     border: 15px solid #10ff42;
 
+    -webkit-animation-delay: 4s;
+    -moz-animation-delay: 4s;
+    -o-animation-delay: 4s;
+    animation-delay: 4s;
+
     animation-duration: 3s;
     animation-name: slidein;
     animation-iteration-count: infinite;
