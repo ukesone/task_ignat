@@ -1,29 +1,7 @@
-.App {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
-    flex-wrap: wrap;
-
-    align-content: center;
-    align-items: center;
+.root {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column wrap;
 }
-.particles {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    /*background-size: auto;*/
-    /*background-position: 50% 50%;*/
-    /*background-repeat: no-repeat;*/
-    /*width: auto;*/
-    /*z-index: -1;*/
-    height: 3200px;
-    opacity: 0.4;
-    background: black;
 
-}
-.red{
-    background-color: crimson;
-}
