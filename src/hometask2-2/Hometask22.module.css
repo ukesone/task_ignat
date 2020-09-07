@@ -1,12 +1,12 @@
 .root {
 	width: 58%;
-	height: 10vh;
+	height: 20vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-color: #fd232f;
 	border-radius: 1em;
-	margin: 1em;
+	padding: 1em;
 }
 
 .items {
@@ -24,14 +24,11 @@
 }
 
 .item {
+	height: 20%;
+	margin: 2px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
-	width: 70%;
-	height: 10%;
-	margin: 2px;
-
 	padding: 7px;
 	border-radius: 0.2em;
 	background-color: green;
@@ -42,9 +39,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
-	width: 30%;
-
+	width: 80%;
 	border-radius: 1em;
 	background-color: yellow;
 	color: black;
