@@ -1,0 +1,18 @@
+.item {
+	font-size: 1em;
+	padding: 0.5em;
+	display: block;
+	width: 300px;
+	border-radius: 0.5em;
+}
+
+.input {
+	border-radius: 0.5em;
+	background-color: blue;
+	opacity: 0.8;
+	color: white;
+}
+
+.item:focus {
+	outline: none;
+}
